@@ -93,7 +93,7 @@ The full policy is
                 "kms:RevokeGrant"
             ],
             "Resource": [
-                "arn:aws:kms:us-west-2:946429944765:key/b85b982b-527f-4018-a5bb-6924eea4704b"
+                "arn:aws:kms:us-west-2:<AWS_ACCOUNT_NO>:key/b85b982b-527f-4018-a5bb-xxxxxxx"
             ],
             "Condition": {
                 "Bool": {
@@ -111,7 +111,7 @@ The full policy is
                 "kms:DescribeKey"
             ],
             "Resource": [
-                "arn:aws:kms:us-west-2:946429944765:key/b85b982b-527f-4018-a5bb-6924eea4704b"
+                "arn:aws:kms:us-west-2:<AWS_ACCOUNT_NO>:key/b85b982b-527f-4018-a5bb-xxxxxxx"
             ]
         },
         {
@@ -122,7 +122,7 @@ The full policy is
                 "kms:RevokeGrant"
             ],
             "Resource": [
-                "arn:aws:kms:us-west-2:946429944765:key/f255c64f-a773-49bd-9b66-74f0926f5896"
+                "arn:aws:kms:us-west-2:<AWS_ACCOUNT_NO>:key/f255c64f-a773-49bd-9b66-yyyyyyyy"
             ],
             "Condition": {
                 "Bool": {
@@ -140,7 +140,7 @@ The full policy is
                 "kms:DescribeKey"
             ],
             "Resource": [
-                "arn:aws:kms:us-west-2:946429944765:key/f255c64f-a773-49bd-9b66-74f0926f5896"
+                "arn:aws:kms:us-west-2:<AWS_ACCOUNT_NO>:key/f255c64f-a773-49bd-9b66-yyyyyyyy"
             ]
         },
          {
@@ -179,7 +179,7 @@ And note that there are two sections similar to the snippet below, one for each 
                 "kms:DescribeKey"
             ],
             "Resource": [
-                "arn:aws:kms:us-west-2:946429944765:key/b85b982b-527f-4018-a5bb-6924eea4704b"
+                "arn:aws:kms:us-west-2:<AWS_ACCOUNT_NO>:key/b85b982b-527f-4018-a5bb-xxxxxxx"
             ]
         },
         {
@@ -190,7 +190,7 @@ And note that there are two sections similar to the snippet below, one for each 
                 "kms:RevokeGrant"
             ],
             "Resource": [
-                "arn:aws:kms:us-west-2:946429944765:key/f255c64f-a773-49bd-9b66-74f0926f5896"
+                "arn:aws:kms:us-west-2:<AWS_ACCOUNT_NO>:key/f255c64f-a773-49bd-9b66-yyyyyyyy"
             ],
             "Condition": {
                 "Bool": {
@@ -208,7 +208,7 @@ And note that there are two sections similar to the snippet below, one for each 
                 "kms:DescribeKey"
             ],
             "Resource": [
-                "arn:aws:kms:us-west-2:946429944765:key/f255c64f-a773-49bd-9b66-74f0926f5896"
+                "arn:aws:kms:us-west-2:<AWS_ACCOUNT_NO>:key/f255c64f-a773-49bd-9b66-yyyyyyyy"
             ]
         }
 ```
